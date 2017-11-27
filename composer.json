@@ -1,0 +1,24 @@
+{
+  "name": "icddex/weather",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@gitlab.com:icddex/DEXParserEnvironment.git"
+    }
+  ],
+  "require": {
+    "zendframework/zendframework": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "license": "Close",
+  "authors": [
+    {
+      "name": "Leonid Zharikov",
+      "email": "zharikov@immo.ru"
+    }
+  ],
+  "minimum-stability": "stable"
+}

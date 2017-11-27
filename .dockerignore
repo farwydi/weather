@@ -1,0 +1,10 @@
+.idea
+composer.json
+docker-compose.yml
+nginx.conf
+create_db.sql
+Dockerfile
+log
+composer.lock
+.dockerignore
+.gitignore
