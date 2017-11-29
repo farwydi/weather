@@ -4,11 +4,12 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@gitlab.com:icddex/DEXParserEnvironment.git"
+      "url": "git@gitlab.com:icddex/parser-environment.git"
     }
   ],
   "require": {
-    "zendframework/zendframework": "^3.0"
+    "icddex/parser-environment": "^1",
+    "zendframework/zend-db": "^2.8"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.4"
@@ -20,5 +21,5 @@
       "email": "zharikov@immo.ru"
     }
   ],
-  "minimum-stability": "stable"
+  "minimum-stability": "RC"
 }

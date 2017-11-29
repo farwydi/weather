@@ -1,10 +1,9 @@
 .idea
-composer.json
+.git
 docker-compose.yml
-nginx.conf
-create_db.sql
 Dockerfile
 log
 composer.lock
 .dockerignore
 .gitignore
+vendor
