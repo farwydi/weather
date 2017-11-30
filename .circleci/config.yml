@@ -18,7 +18,7 @@ jobs:
           - v1-dependencies-{{ checksum "composer.json" }}
           - v1-dependencies-
 
-      - run: composer install -n --prefer-dist --no-scripts --no-progress
+      - run: composer install --prefer-dist --no-scripts --no-progress
 
       - save_cache:
           paths:
