@@ -4,7 +4,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@gitlab.com:icddex/parser-environment.git"
+      "url": "git@bitbucket.org:icddex/parser-environment.git"
     }
   ],
   "require": {
